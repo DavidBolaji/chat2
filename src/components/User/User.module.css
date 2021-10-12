@@ -1,0 +1,39 @@
+.user {
+    padding: 1rem;
+    border-bottom: 1px solid #e4e4e4;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user:hover {
+    background-color: #d1d1d1;
+    border: 1px solid #ededed;
+} 
+
+a {
+    text-decoration: none;
+}
+
+.box {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.msg {
+    flex: 0.95;
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    justify-content: center;
+    align-items: left;
+}
+
+.msg p {
+    font-size: 0.7em;
+    display: block;
+    white-space: nowrap;
+    color: #5e5e5e;
+    line-height: 17px;
+}

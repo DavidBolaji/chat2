@@ -1,0 +1,14 @@
+.login {
+    background-color: #fafafa;
+    height: 40%;
+    width: 50%;
+    margin: auto;
+    /* background-color: #ededed; */
+    display: grid;
+    place-items: center;
+}
+
+.login button {
+    padding:0.5em 2em;
+    cursor: pointer;
+}
