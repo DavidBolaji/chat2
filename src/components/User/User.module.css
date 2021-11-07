@@ -1,17 +1,22 @@
 .user {
     padding: 1rem;
-    border-bottom: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e460;
     display: flex;
     justify-content: space-between;
+
 }
 
+
 .user:hover {
-    background-color: #d1d1d1;
-    border: 1px solid #ededed;
+    background-color: #0b9fd95b;
+    border: none;
+    backdrop-filter: blur( 0.5px );
+    -webkit-backdrop-filter: blur( 0.5px );
 } 
 
 a {
     text-decoration: none;
+    color: #BF2C8C !important;
 }
 
 .box {
@@ -34,6 +39,8 @@ a {
     font-size: 0.7em;
     display: block;
     white-space: nowrap;
-    color: #5e5e5e;
-    line-height: 17px;
+    color: #BF2C8C;
+    line-height: 0.0006mm;
+    text-transform: capitalize;
+    letter-spacing: 0.7px
 }

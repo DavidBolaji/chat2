@@ -1,13 +1,15 @@
 {
-  "homepage":"http://DavidBolaji.github.io/chat2",
+  "homepage": "http://DavidBolaji.github.io/chat2",
   "name": "chat2",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
     "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
-    "@material-ui/core": "^4.11.3",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
+    "@mui/icons-material": "^5.0.5",
     "@mui/material": "^5.0.2",
     "@reduxjs/toolkit": "^1.6.1",
     "@testing-library/jest-dom": "^5.11.10",
@@ -27,8 +29,8 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

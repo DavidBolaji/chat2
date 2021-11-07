@@ -1,9 +1,12 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import classes from './Login.module.css';
+// import GoogleIcon from '@mui/icons-material/Google';
 import { auth, provider} from './../../firebase';
 // import AppleIcon from '@mui/icons-material/Apple';
 import { authActions } from './../../store/auth-redux';
+import TagFacesSharpIcon from '@mui/icons-material/TagFacesSharp';
+import GoogleIcon from '@mui/icons-material/Google';
 
 const Login = () => {
 
@@ -33,7 +36,13 @@ const Login = () => {
 
     return (
         <div className={classes.login}>
-            <button onClick={googleLogin}>SiGN IN WITH GOOGLE</button>
+            <div className={classes.holder}>
+            <TagFacesSharpIcon />
+            <button onClick={googleLogin}>
+                SIGN IN 
+                <img src="https://cdn-icons-png.flaticon.com/128/281/281764.png" alt="google logo" className={classes.google}/>
+            </button>
+            </div>
         </div>
     )
 }

@@ -1,14 +1,55 @@
 .login {
-    background-color: #fafafa;
-    height: 40%;
+    background-color: #04161d07;
+    /* background: rgba( 255, 255, 255, 0.25 ); */
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.5px );
+    -webkit-backdrop-filter: blur( 0.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 50%;
     width: 50%;
+    min-width: 40%;
     margin: auto;
     /* background-color: #ededed; */
     display: grid;
     place-items: center;
+    min-width: 340px;
 }
 
+.holder {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.holder svg  {
+  color: rgba(255, 0, 0, 0.234) !important;
+  font-size: 2.25rem !important;
+}
+/* npm install @material-ui/core */
 .login button {
     padding:0.5em 2em;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-color: #fafafab3;
+    
+    border: 2px solid #d7574ba4;
+    transition: 0.25s ease-in;
+    color: #D7574B;
+    
+    font-weight: 700;
+}
+
+.login button:hover {
+    box-shadow: 10px 12px 10px 5px #1c274474;
+}
+
+
+.google {
+    width: 20px;
+    margin-left:10px;
 }

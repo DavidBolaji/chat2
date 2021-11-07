@@ -1,15 +1,19 @@
 .container {
     width: 100vw;
     height: 100vh;
-    background-color: #dedede;
+    /* background-color: #dedede; */
     display: grid;
     place-items: center;
+    overflow-x: hidden;
 }
 
 .app {
     width:90vw;
     height:90vh;
     background-color: #fafafa;
+    background-image: url("https://www.transparenttextures.com/patterns/food.png");
+
     display: flex;
-    box-shadow: 10px 6px 10px 10px rgba(0,0,0,0.2);
+    /* box-shadow: 10px 6px 10px 10px rgba(0,0,0,0.2); */
+   
 }

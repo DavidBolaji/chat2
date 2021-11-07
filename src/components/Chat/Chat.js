@@ -84,11 +84,11 @@ const Chat = (props) => {
             const newObj = {}
             const newObjkeys = [];
             const newObjValues = [];
-           
+            // eslint-disable-next-line
             snapshot.docs.map(doc => {
                 newObjkeys.push(...Object.keys(doc.data()));
                 newObjValues.push(...Object.values(doc.data()));
-               
+                
             })
 
             for(let i = 0; i < newObjkeys.length; i++) {
